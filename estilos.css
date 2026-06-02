@@ -1,8 +1,21 @@
+/* 1. CONFIGURACIÓN GENERAL Y TEXTO DE CONTENIDO (Primer Color) */
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     text-align: center;
+    color: #4a5568; /* Gris oscuro para todos los párrafos y texto general */
 }
 
-h1 {
-    color: red;
+/* 2. TÍTULOS (Segundo Color) */
+h1, h2 {
+    color: #1a365d; /* Azul marino/oscuro para destacar los títulos */
+}
+
+/* 3. ELEMENTOS DE ACCIÓN Y ENLACES (Tercer Color) */
+nav a, button, footer p {
+    color: #2ed573 !important; /* Verde brillante para enlaces, botones y texto del footer */
+}
+
+/* Ajuste extra para que el botón se vea genial con el nuevo color de letra */
+button {
+    font-weight: bold;
 }
