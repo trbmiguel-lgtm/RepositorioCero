@@ -5,3 +5,4 @@
 - [x] **Verificación de Enlaces:** Confirmar que `<link rel="stylesheet" href="estilos.css">` use una ruta local y segura.
 - [x] **Limpieza de Historial:** Revisar que no existan contraseñas, correos ni tokens comentados en el código actual.
 - [x] **Conexión Segura (HTTPS):** Asegurar que GitHub Pages tenga activado el cifrado HTTPS.
+![GitHub Super Linter](https://img.shields.io/badge/Security-Secured-brightgreen)
