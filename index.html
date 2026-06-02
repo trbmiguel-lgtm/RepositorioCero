@@ -1,11 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Mi Primera Página</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi sitio en GitHub</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: #24292e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #444;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #666;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+      background: #24292e;
+      color: white;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Hola GitHub</h1>
-    <p>Este es mi primer proyecto.</p>
+
+  <header>
+    <h1>🚀 Mi proyecto en GitHub</h1>
+    <p>Probando actualizaciones del index.html</p>
+  </header>
+
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Proyectos</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <div class="container">
+    <h2>Bienvenido 👋</h2>
+    <p>
+      Este es un archivo de prueba para ver cómo se actualiza el sitio en GitHub Pages
+      cada vez que haces un commit.
+    </p>
+
+    <p id="mensaje">Haz clic en el botón para cambiar este texto.</p>
+
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+  </div>
+
+  <footer>
+    <p>© 2026 - Mi sitio de prueba en GitHub</p>
+  </footer>
+
+  <script>
+    function cambiarTexto() {
+      const mensaje = document.getElementById("mensaje");
+      mensaje.textContent = "🎉 El contenido fue actualizado correctamente desde JavaScript!";
+    }
+  </script>
+
 </body>
 </html>
